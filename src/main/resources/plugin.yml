@@ -5,3 +5,7 @@ api-version: 1.18
 prefix: (Fruit Tree)
 authors: [ Nerdy_Dragon ]
 description: Different  Fruit Trees for Minecraft servers!
+commands:
+  giveAppleSappling:
+    description: Gives an &2apple sappling &rto the Player.
+    usage: /<command>
