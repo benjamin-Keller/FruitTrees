@@ -1,6 +1,7 @@
 package net.nerdy.fruittrees.Trees.Items;
 
 import org.bukkit.Material;
+import org.bukkit.inventory.ItemFlag;
 import org.bukkit.inventory.ItemStack;
 import org.bukkit.inventory.meta.ItemMeta;
 
@@ -12,7 +13,7 @@ public class ItemManager {
     public static ItemStack appleTreeSapling;
 
     public static void init() {
-
+        createAppleTree();
     }
 
     private static void createAppleTree() {
@@ -25,5 +26,8 @@ public class ItemManager {
         lore.add("&2When Notch gives you Apples,");
         lore.add("&2You plant an Apple Tree!");
         meta.lore(lore);
+
+        item.setItemMeta(meta);
+        appleTreeSapling = item;
     }
 }
