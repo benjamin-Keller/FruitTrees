@@ -1,7 +1,6 @@
 package net.nerdy.fruittrees.Trees.Items;
 
 import org.bukkit.Material;
-import org.bukkit.inventory.ItemFlag;
 import org.bukkit.inventory.ItemStack;
 import org.bukkit.inventory.meta.ItemMeta;
 
@@ -18,8 +17,7 @@ public class ItemManager {
 
     private static void createAppleTree() {
         ItemStack item = new ItemStack(Material.OAK_SAPLING, 1);
-
-        ItemMeta meta = appleTreeSapling.getItemMeta();
+        ItemMeta meta = item.getItemMeta();
         meta.setLocalizedName("Apple Tree Sapling");
 
         List lore = new ArrayList<>();
