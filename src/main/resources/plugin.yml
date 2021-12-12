@@ -1,0 +1,7 @@
+name: FruitTrees
+version: '${project.version}'
+main: net.nerdy.fruittrees.FruitTrees
+api-version: 1.18
+prefix: (Fruit Tree)
+authors: [ Nerdy_Dragon ]
+description: Different  Fruit Trees for Minecraft servers!
